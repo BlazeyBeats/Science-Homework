@@ -1,0 +1,42 @@
+.game-container{
+width: 930px;
+}
+.game{
+    width: 930px;
+    height: 550px;
+}
+.game-home .home{
+    width: 222px;
+    height: 113px;
+    background-image:url(/images/home_button.png) ;
+}
+.scene0{
+    width: 692px;
+    height: 368px;
+    background-image: url(/images/games_place.png);
+}
+.scene .scene-item{
+    width: 190px;
+    height: 100px;
+    list-style-type: none;
+}
+.scene-item-0-1{
+    background-image: url(/images/restaurant.png);
+    background-size: cover;
+}
+.scene-item-0-2{
+    background-image: url(/images/kitchen.png);
+    background-size: cover;
+}
+.scene-item-0-3{
+    background-image: url(/images/livingroom.png);
+    background-size: cover;
+}
+.scene-item-0-4{
+    background-image: url(/images/bathroom.png);
+    background-size: cover;
+}
+.scene-item-0-5{
+    background-image: url(/images/bedroom.png);
+    background-size: cover;
+}
