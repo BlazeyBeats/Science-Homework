@@ -5,38 +5,122 @@ width: 930px;
     width: 930px;
     height: 550px;
 }
-.game-home .home{
-    width: 222px;
+.intro-text{
+    width: 188px;
+    height: 122px;
+    background-image: url(/images/games_hint.svg);
+    text-align: center;
+}
+.home{
+      width: 222px;
     height: 113px;
     background-image:url(/images/home_button.png) ;
+    font-size: 0;
+    cursor: pointer;
 }
-.scene0{
+.scene{
     width: 692px;
     height: 368px;
+}
+.scene0{
     background-image: url(/images/games_place.png);
 }
-.scene .scene-item{
+.scene1{
+    background-image: url(/images/restaurant.png);
+}
+
+.scene0 .scene-item{
     width: 190px;
     height: 100px;
     list-style-type: none;
-}
+   position: absolute;
+   font-size: 0;
+   cursor: pointer;
+ }
+ .scene0 .scene-item:hover{
+transform: scale(1.2);
+transition: all 0.4s;
+ }
 .scene-item-0-1{
     background-image: url(/images/restaurant.png);
     background-size: cover;
+    margin-top: 220px;
+
 }
 .scene-item-0-2{
     background-image: url(/images/kitchen.png);
     background-size: cover;
+    margin-top: 220px;
+    margin-left: 210px;
+
 }
 .scene-item-0-3{
     background-image: url(/images/livingroom.png);
     background-size: cover;
+    margin-top: 220px;
+    margin-left: 419px;
 }
 .scene-item-0-4{
     background-image: url(/images/bathroom.png);
     background-size: cover;
+    margin-top: 100px;
+    margin-left: 210px;
+
 }
 .scene-item-0-5{
     background-image: url(/images/bedroom.png);
     background-size: cover;
+    margin-top: 100px;
+    margin-left: 419px;
+}
+.answer{
+    list-style-type: none;
+    padding: 0;
+    margin:0;
+}
+.answer-item{
+    display: inline-block;
+    width: 58px;
+    height: 57px;
+    font-size: 0;
+    background-size: cover;
+}
+.answer-item-1-1{
+    background-image: url(/images/ic_towel.png);
+}
+.answer-item-1-2{
+    background-image: url(/images/ic_pot.png);
+}
+.answer-item-1-3{
+    background-image: url(/images/ic_bottle.png);
+}
+.scene1 .scene-item:hover{
+    transform: scale(1.2);
+    transition: all 0.4s;
+     }
+.scene1 .scene-item{
+    position: absolute;
+    font-size: 0;
+    cursor: pointer;
+}
+.scene1 .scene-item-1-1{
+    width: 218px;
+    height: 29px;
+    background-image: url(/images/img_red_bg.png);
+    margin-left: 176px;
+    margin-top: 230px;
+}
+.scene1 .scene-item-1-2{
+    width: 33px;
+    height: 41px;
+    background-image: url(/images/img_pot.png);
+    margin-left: 360px;
+    margin-top: 190px;
+}
+.scene1 .scene-item-1-3{
+    width: 26px;
+    height: 47px;
+    background-image: url(/images/img_bottle.png);
+    margin-left: 113px;
+    margin-top: 82px;
 }
