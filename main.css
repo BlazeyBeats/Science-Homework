@@ -235,6 +235,7 @@ transition: all 0.4s;
 
 .scene-item-3-3:hover{
     opacity: 1;
+    cursor: pointer;
 }
 
 .scene-item-4-1{
