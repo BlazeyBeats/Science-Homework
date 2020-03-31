@@ -32,6 +32,15 @@ width: 930px;
 .scene2{
     background-image: url(./images/bathroom.png);
 }
+.scene3{
+    background-image: url(./images/bedroom.png);
+}
+.scene4{
+    background-image: url(./images/kitchen.png);
+}
+.scene5{
+    background-image: url(./images/livingroom.png);
+}
 
 .scene0 .scene-item{
     width: 190px;
@@ -115,6 +124,36 @@ transition: all 0.4s;
     background-image: url(./images/ic_plasic.png);
 }
 
+.answer-item-3-1{
+    background-image: url(./images/ic_bamboomat.png);
+}
+.answer-item-3-2{
+    background-image: url(./images/ic_brick.png);
+}
+.answer-item-3-3{
+    background-image: url(./images/ic_babywrap.png);
+}
+
+.answer-item-4-1{
+    background-image: url(./images/ic_paint.png);
+}
+.answer-item-4-2{
+    background-image: url(./images/ic_faucet.png);
+}
+.answer-item-4-3{
+    background-image: url(./images/ic_milkbox.png);
+}
+
+.answer-item-5-1{
+    background-image: url(./images/ic_raincoat.png);
+}
+.answer-item-5-2{
+    background-image: url(./images/ic_car.png);
+}
+.answer-item-5-3{
+    background-image: url(./images/ic_tube.png);
+}
+
 .scene-item:hover{
     transform: scale(1.2);
     transition: all 0.4s;
@@ -168,4 +207,86 @@ transition: all 0.4s;
     background-image: url(./images/img_plasic_bottle.png);
     margin-left: 70px;
     margin-top: 270px;
+}
+
+.scene-item-3-1{
+    width: 66px;
+    height: 54px;
+    background-image: url(./images/img_baby_clothes.png);
+    margin-left: 410px;
+    margin-top: 23px;
+}
+.scene-item-3-2{
+    width: 90px;
+    height:43px;
+    background-image: url(./images/img_bamboo_mat.png);
+    margin-left: 57px;
+    margin-top: 147px;
+}
+.scene-item-3-3{
+    width: 103px;
+    height: 48px;
+    background-image: url(./images/img_find_hint.png);
+    margin-left: 430px;
+    margin-top: 210px;
+   opacity: 0;
+   font-size: 0;
+}
+
+.scene-item-3-3:hover{
+    opacity: 1;
+}
+
+.scene-item-4-1{
+    width: 125px;
+    height: 55px;
+    background-image: url(./images/img_brick.png);
+    margin-left: 283px;
+    margin-top: 70px;
+}
+.scene-item-4-2{
+    width: 56px;
+    height:70px;
+    background-image: url(./images/img_faucet.png);
+    margin-left: 152px;
+    margin-top: 99px;
+}
+.scene-item-4-3{
+    width: 72px;
+    height: 28px;
+    background-image: url(./images/img_cups.png);
+    margin-left: 308px;
+    margin-top: 225px;
+  
+}
+
+.scene-item-5-1{
+    width: 90px;
+    height: 104px;
+    background-image: url(./images/img_raincoat.png);
+    margin-left: 525px;
+    margin-top: 225px;
+}
+.scene-item-5-2{
+    width: 51px;
+    height:26px;
+    background-image: url(./images/img_texi.png);
+    margin-left: 329px;
+    margin-top: 127px;
+}
+.scene-item-5-3{
+    width: 39px;
+    height: 20px;
+    background-image: url(./images/img_red_car.png);
+    margin-left: 379px;
+    margin-top: 259px;
+  
+}
+.scene-item-5-4{
+    width: 113px;
+    height: 7px;
+    background-image: url(./images/img_tube.png);
+    margin-left: 270px;
+    margin-top: 27px;
+  
 }
